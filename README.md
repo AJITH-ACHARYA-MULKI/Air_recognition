@@ -56,11 +56,10 @@ for more info..[https://www.geeksforgeeks.org/detection-specific-colorblue-using
     [blue_detect=cv2.morphologyEx(blue_detect,cv2.MORPH_OPEN,kernal)]
     for more info..[https://www.geeksforgeeks.org/python-morphological-operations-in-image-processing-closing-set-2/]
     
-        <img src="https://github.com/AJITH-ACHARYA-MULKI/Air_recognition/blob/master/images/IMG_20200924_184211.jpg" width=300px height=150px>
+ <img src="https://github.com/AJITH-ACHARYA-MULKI/Air_recognition/blob/master/images/IMG_20200924_184211.jpg" width=300px height=150px>
 
      
     cv2.findContours function
     for more info..[https://www.geeksforgeeks.org/find-and-draw-contours-using-opencv-python/]
     
-
-Once we find the contour (the if condition passes when a contour is found), we use the center of the contour (blue cap) to draw on the screen as it moves. The following code does the same.
+    Once we find the contour (the if condition passes when a contour is found), we use the center of the contour (blue cap) to draw on the screen as it moves. The following code does the same.
