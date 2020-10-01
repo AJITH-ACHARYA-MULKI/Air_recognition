@@ -47,3 +47,16 @@ Once we start reading the webcam feed, we constantly look for a blue color objec
 
 
 for more info..[https://www.geeksforgeeks.org/detection-specific-colorblue-using-opencv-python/]
+
+    [blue_detect=cv2.erode(blue_detect,kernal,iterations=2)]
+    [blue_detect=cv2.dilate(blue_detect,kernal,iterations=1)]
+    for more info..[https://www.geeksforgeeks.org/erosion-dilation-images-using-opencv-python/]
+    
+
+    [blue_detect=cv2.morphologyEx(blue_detect,cv2.MORPH_OPEN,kernal)]
+    for more info..[https://www.geeksforgeeks.org/python-morphological-operations-in-image-processing-closing-set-2/]
+     
+    cv2.findContours function
+    for more info..[https://www.geeksforgeeks.org/find-and-draw-contours-using-opencv-python/]
+
+Once we find the contour (the if condition passes when a contour is found), we use the center of the contour (blue cap) to draw on the screen as it moves. The following code does the same.
