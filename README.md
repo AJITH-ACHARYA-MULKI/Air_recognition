@@ -10,6 +10,9 @@ Project Description:
 and allows the user to draw by moving the object, which makes user to write charecter and digits in front of webcam. 
 Later the input data is captured and send it to the further process like Convolution Neural Network(CNN) to recognise pattern drawn by the user.
 
+<img src="https://github.com/AJITH-ACHARYA-MULKI/Air_recognition/blob/master/images/image.png" width=300px height=150px>
+
+
 Code Requirements
 	This application is written in Python 3.8.5 and it uses the very famous OpenCV library.
 OpenCV is a computer vision and machine learning software library that includes many common image analysis algorithms that will help us build custom, intelligent computer vision applications.
